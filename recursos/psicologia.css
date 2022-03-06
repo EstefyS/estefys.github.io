@@ -4,7 +4,9 @@ section{
     padding:10px;
     border-radius: 1em;
 }
-
+img.more{
+    width:10%;
+}
 img.tocadiscos{
     border-radius: 1em;
     width:35%;
