@@ -1,16 +1,9 @@
-body{
-    background-image: url(../Imagenes/Tocadiscos.png);
-    background-size:auto;
-    background-repeat:no-repeat;
-    background-position:center center;
-}
 #encabezado{
-    /*background-image: url(../Imagenes/backgrounb.jpg);*/
-    background-color: #ffa0a0c5;
+    background-color:rgb(138, 43, 226) ;
     padding:5%;
-    color:rgb(138, 43, 226);
+    color:rgb(220, 182, 255);
     border-radius: 10px;
-    text-align: justify
+    text-align: justify;
 }
 .dentro,a>div{
     text-align:center;
@@ -19,10 +12,16 @@ img.more{
     width:10%;
 }
 #rockola{
+    padding-top: 660px;
+    padding-bottom: 300px;
+    padding-left:1%;
     position: relative; 
     display:grid;
-    grid-template:repeat(5,1fr)/repeat(1, 1fr);
     justify-content: center;
+    background-image: url(../Imagenes/Tocadiscos.png);
+    background-size:auto;
+    background-repeat:no-repeat;
+    background-position:center center;
 }
 #Imagen{
     margin-left:auto;
@@ -32,7 +31,7 @@ img.rockola{
     width: 500px;
 }
 img.ElCS{
-    width: 35%;
+    width: 40%;
 }
 #links{
     display:grid;
@@ -49,7 +48,7 @@ img.ElCS{
     padding: 1.5%;
 }
 .box{
-    background-color: rgba(134, 81, 38, 0.815);
+    background-color: rgba(122, 56, 2, 0.93);
     border-color: black;
     border-style: solid;
     border-width:1px;
@@ -66,6 +65,11 @@ a>div{
     color: white;
     font-style:calibri;
     font-weight: bold;
+    font-size: auto;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 a{
     outline: none;
@@ -96,7 +100,7 @@ a:link {
 
   #footer {
     padding:1%;
-    background-color: #3f3f4dec;
+    background-color: #e6e6ffec;
     width:100%;
     margin-left: auto;
     margin-right: auto;
@@ -145,5 +149,5 @@ p{
     font-size: 1.2em;
 }
 footer{
-    color:#8a2be2;
+    color:rgb(194, 129, 255);
 }
