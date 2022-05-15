@@ -35,7 +35,9 @@ img.ElCS{
 }
 #links{
     display:grid;
-    grid-template:repeat(4,1fr)/repeat(2, 1fr);
+    /*grid-template:repeat(4,1fr)/repeat(2, 1fr);*/
+    grid-template-columns:repeat(auto-fit,minmax(270px,1fr)) ;
+    grid-template-rows: repeat(5,1fr);
     grid-gap: 10px;
     width:180px;
     background-color: rgba(139, 69, 19, 0);
